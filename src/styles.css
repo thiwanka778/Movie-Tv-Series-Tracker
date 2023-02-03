@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    display:flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height:60px;
+    align-items: center;
+   position:fixed;
+   width:100%;
+   background-color: white;
+   
+}
+
+.netprime{
+    display:flex;
+    margin-left:30px;
+    margin-right:auto;
+    font-family: 'Russo One', sans-serif;
+    font-size:28px;
+    letter-spacing: 3px;
+}
+.mpm{
+    display:flex;
+    margin-right:30px;
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    letter-spacing: 1px;
+    font-weight:bold;
+    text-decoration: none;
+    color:black;
+}
+.mpm.active{
+    color:#8c16c7;
+    font-family:cursive;
+    font-size:18px;
+}
+.mpt{
+  display:flex;
+  margin-right:30px;
+  font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    letter-spacing: 1px;
+    font-weight:bold;
+    text-decoration: none;
+    color:black;
+}
+.mpt.active{
+    color:#8c16c7;
+    font-family:cursive;
+    font-size:18px;
+}
+.search-div{
+    display:flex;
+    margin-right:30px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight:bold;
+    font-size:15px;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+}
+.search-div.active{
+    color:#8c16c7;
+    
+}
+.search-icon{
+    margin-top:4px;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+   cursor: pointer;
+    width:150px;
+    height:320px;
+}
+.img{
+    width:150px;
+    height:225px;
+    border-radius: 10px;
+}
+.title{
+margin-left:2px;
+font-family:'Roboto', sans-serif;
+width:145px;
+font-size:15px;
+font-weight:bold;
+
+}
+.date{
+    margin-left:2px;
+    font-size:13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.movies{
+    
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-top:70px;
+    display:grid;
+    grid-gap:4px;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-template-rows: repeat(2,320px);
+}
+.search-page{
+    
+    padding-top:70px;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+}
+
+.smp{
+    display:flex;
+    flex-direction: column;
+}
+.smp-a{
+    display:flex;
+    align-items:center;
+}
+.clear-btn{
+    margin-left:20px;
+}
+.smp-b{
+    padding-top:20px;
+    padding-left:10px;
+    padding-bottom:10px;
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-template-rows: repeat(2,320px);
+}

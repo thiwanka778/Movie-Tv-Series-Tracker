@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.movie-click{
+    
+    display:flex;
+    padding-top:70px;
+}
+.a{
+
+margin-left:20px;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.image{
+    width:220px;
+    height:330px;
+    border-radius: 10px;
+}
+.b{
+    margin-left:30px;
+    width:720px;
+    display:flex;
+    flex-direction:column;
+}
+
+.title-b{
+    width:720px;
+   font-family:cursive;
+   letter-spacing: 2px;
+font-size:25px;
+font-weight:bold;
+margin-bottom:5px;
+}
+.genre{
+    margin-left:2px;
+     letter-spacing: 2px;
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.overview{
+    margin-left:2px;
+     letter-spacing: 2px;
+    font-family:'Roboto', sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.detail{
+    margin-left:2px;
+    letter-spacing: 2px;
+   font-family:'Roboto', sans-serif;
+   font-size:15px;
+   font-weight:bold;
+   margin-bottom:5px;
+}
+.date-b{
+    margin-top:15px;
+    margin-left:2px;
+    color:blue;
+    letter-spacing: 2px;
+   font-family:'Roboto', sans-serif;
+   font-size:15px;
+   font-weight:bold;
+}
+.trailer{
+    margin-left:2px;
+    margin-top:20px;
+    display:flex;
+border:2px solid black;
+width:100px;
+height:40px;
+align-items:center;
+justify-content: center;
+cursor: pointer;
+border-radius: 10px;
+}
+.trailer-word{
+    margin-left:5px;
+    letter-spacing: 2px;
+   font-family:'Roboto', sans-serif;
+   font-size:15px;
+   font-weight:bold;
+}
+.icon{
+    margin-top:2px;
+}
+.a-tag{
+   
+    text-decoration: none;
+    color:black;
+    display: flex;
+    height:60px;
+    
+
+}
+.back-button{
+    margin-top:10px;
+    margin-left:2px;
+}
+
+.tv-click{
+    padding-top:70px;
+}
+.rating{
+    display:flex;
+    align-items:center;
+}
+
+.vote-average{
+    margin-left:15px;
+    font-size:16px;
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    color:black;
+}
+.a-div{
+    width:104px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
