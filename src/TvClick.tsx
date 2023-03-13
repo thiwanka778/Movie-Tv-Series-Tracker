@@ -117,7 +117,8 @@ else{
 let youtubeLink:string=`https://www.youtube.com/watch?v=${youtubeTrailer}`;
   return (
     <ThemeProvider theme={theme}>
-    <main className="movie-click">
+      <main>
+    <div className="movie-click">
 
         <section className="a">
        <img className="image" src={imgUrl}  alt="network-error"/>
@@ -147,6 +148,20 @@ let youtubeLink:string=`https://www.youtube.com/watch?v=${youtubeTrailer}`;
       </Button>
           </div>
         </section>
+
+        
+        </div>
+        <div className="additional">
+         <p>Seedr.cc is a cloud-based torrent downloading and streaming platform that allows users to download and stream files from the internet without having to use a traditional torrent client. Seedr.cc offers a range of services to its users, including fast download speeds, unlimited bandwidth, and a user-friendly interface.
+
+One of the key benefits of Seedr.cc is that it allows users to download and stream torrents anonymously. This means that users can access files without revealing their identity or IP address, which is particularly useful for those who live in countries with strict laws around file sharing.
+
+Seedr.cc also offers a range of paid plans that provide additional features such as increased storage space, increased download speeds, and the ability to download multiple files at once. These plans are reasonably priced and offer excellent value for money compared to other similar services on the market.
+
+Another significant advantage of Seedr.cc is that it allows users to stream media files directly from their servers. This means that users can watch videos or listen to music without having to download the entire file first, which can save a lot of time and bandwidth.
+
+Overall, Seedr.cc is a valuable platform for anyone who wants to download or stream files from the internet quickly and anonymously. Its range of features and affordable pricing make it an excellent choice for anyone who regularly uses torrent sites. <span><a className='addi' href="https://www.seedr.cc/">seedr.cc</a></span> </p>
+        </div>
         </main>
         </ThemeProvider>
   )

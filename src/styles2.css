@@ -126,3 +126,21 @@ border-radius: 10px;
     align-items: center;
     justify-content: center;
 }
+.additional{
+    
+    width:70vw;
+    display:flex;
+    align-items: center;
+   margin-left:20px;
+    font-family:'Roboto', sans-serif;
+    margin-top:30px;
+    align-self: center;
+    font-weight:bold;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.addi{
+    text-decoration: none;
+    color:blue;
+    font-weight:bold;
+}
